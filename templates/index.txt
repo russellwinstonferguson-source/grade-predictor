@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Predictor</title>
+</head>
+<body>
+    <h1>Grade Predictor</h1>
+    <p>Input grades received for Practice Test 1 and Practice Test 2:</p>
+    
+    <form action="/predict" method="post">
+        <input type="text" name="Practice 1" placeholder="Practice 1 Score" required>
+        <input type="text" name="Practice 2" placeholder="Practice 2 Score" required>
+        <button type="submit">Predict Test Result!</button>
+    </form>
+    
+    <br><br>
+    <b>{{answer}}</b>
+</body>
+</html>
